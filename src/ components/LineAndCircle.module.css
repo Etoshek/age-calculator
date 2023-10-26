@@ -1,0 +1,25 @@
+
+.lineBox {
+	display: flex;
+	height: 96px;
+}
+
+.line {
+	width: 632px;
+	height: 1px;
+	justify-content: center;
+	border: none;
+	background: #dcdcdc;
+}
+
+.blackCircle {
+	width: 96px;
+	height: 96px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	gap: 8px;
+	border-radius: 216px;
+	background-color: #151515;
+	color: #dcdcdc;
+}

@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import WhiteBoard from './ components/WhiteBoard';
+import SaveDate from './ components/SaveDate';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <WhiteBoard/>
+    <SaveDate/>
   </React.StrictMode>
 );
 

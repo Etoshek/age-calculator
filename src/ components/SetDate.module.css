@@ -1,0 +1,36 @@
+.dateFrame {
+	display: flex;
+	width: 100% 728px;
+	height: auto 101px;
+	align-items: flex-start;
+	align-self: stretch;
+	gap: 32px;
+}
+
+.dateText {
+	/* Heading S */
+	display: inline-block;
+	width: auto 67px;
+	height: auto 21px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 3.5px;
+	text-transform: uppercase;
+	color: #ff5959;
+}
+
+.dateTextInput {
+	/* Heading M */
+	width: 160px;
+	height: auto 72px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	color: #151515;
+}

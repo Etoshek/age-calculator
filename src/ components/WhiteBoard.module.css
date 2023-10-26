@@ -1,0 +1,13 @@
+.whiteBoard {
+	display: flex;
+	flex-direction: column;
+	width: fixed 840px;
+	height: auto 651px;
+	padding: 56px;
+	align-items: flex-start;
+	flex-shrink: 0;
+
+	border-radius: 24px 24px 200px 24px;
+	background: var(--White, #fff);
+}
+
