@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import classes from './CheckIfInputIsEmpty.module.css';
 
-const [message, setMessage] = useState(''); 
 function CheckIfInputIsEmpty() {
-const handleChange = (event) => {
-	setMessage(event.target.value);
-};
+	const [message, setMessage] = useState('');
+	const handleChange = (event) => {
+		handleClick()
+		setMessage(event.target.value);
+		console.log('message');
+	};
 
 	const handleClick = (event) => {
 		event.preventDefault();
@@ -16,18 +18,14 @@ const handleChange = (event) => {
 			console.log('input value is empty');
 		}
 	};
-	 function OkButton() {
-		return (
-			<div className={classes.lineBox}>
-				<div className={classes.line}></div>
-				<button className={classes.button} onClick={handleChange}>
-					Ok
-				</button>
-			</div>
-		);
-	}
-
+	return (
+		<div className={classes.lineBox}>
+			<div className={classes.line}></div>
+			<button className={classes.button} onClick={handleChange}>
+				Ok
+			</button>
+		</div>
+	);
 }
-
 
 export default CheckIfInputIsEmpty;
