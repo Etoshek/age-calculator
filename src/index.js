@@ -5,16 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import WhiteBoard from './ components/WhiteBoard';
-import SaveDate from './ components/SaveDate';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    <WhiteBoard/>
-    <SaveDate/>
-  </React.StrictMode>
+	<React.StrictMode>
+		<App />
+		<WhiteBoard />
+
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

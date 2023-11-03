@@ -1,10 +1,15 @@
-.dateFrame {
+.form {
 	display: flex;
 	width: 100% 728px;
 	height: auto 101px;
 	align-items: flex-start;
+	flex-direction: column;
 	align-self: stretch;
 	gap: 32px;
+}
+
+.contentForm {
+	display: flex;
 }
 
 .dateText {
@@ -19,7 +24,7 @@
 	line-height: normal;
 	letter-spacing: 3.5px;
 	text-transform: uppercase;
-	color: #ff5959;
+	color: #151515;
 }
 
 .dateTextInput {
