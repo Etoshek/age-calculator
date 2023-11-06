@@ -39,3 +39,31 @@
 	letter-spacing: 0.32px;
 	color: #151515;
 }
+
+.today {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 90%;
+	background-color: #854dff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	border-end-end-radius: 20%;
+	border-start-start-radius: 20%;
+}
+
+.todayDate{
+	color: #151515;
+}
+
+.todayBtn{
+	padding: 20px;
+	margin-left: 20px;
+	background-color: #965dff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	cursor: pointer;
+}
